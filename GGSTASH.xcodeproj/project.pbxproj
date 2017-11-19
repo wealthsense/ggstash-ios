@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F48A5C41FC0A29B007C98FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F48A5C31FC0A29B007C98FB /* GoogleService-Info.plist */; };
+		1F48A5C61FC0ACAC007C98FB /* Supercell-magic-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F48A5C51FC0ACAC007C98FB /* Supercell-magic-webfont.ttf */; };
 		1F9211FD1FC08E9C008AD504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9211FC1FC08E9C008AD504 /* AppDelegate.swift */; };
 		1F9211FF1FC08E9D008AD504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9211FE1FC08E9D008AD504 /* ViewController.swift */; };
 		1F9212021FC08E9D008AD504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9212001FC08E9D008AD504 /* Main.storyboard */; };
 		1F9212041FC08E9D008AD504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9212031FC08E9D008AD504 /* Assets.xcassets */; };
 		1F9212071FC08E9D008AD504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9212051FC08E9D008AD504 /* LaunchScreen.storyboard */; };
+		1FB795A81FC0E5A900D267C3 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB795A71FC0E5A800D267C3 /* RewardViewController.swift */; };
+		1FE2F0BF1FC09F4A004D4C2C /* StashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2F0BE1FC09F4A004D4C2C /* StashViewController.swift */; };
+		FBF24C76DDF9CE64F49E514D /* Pods_GGSTASH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01A5E42F465FE7630E14D2C /* Pods_GGSTASH.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F48A5C31FC0A29B007C98FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F48A5C51FC0ACAC007C98FB /* Supercell-magic-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Supercell-magic-webfont.ttf"; sourceTree = "<group>"; };
 		1F9211F91FC08E9C008AD504 /* GGSTASH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGSTASH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9211FC1FC08E9C008AD504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F9211FE1FC08E9D008AD504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		1F9212031FC08E9D008AD504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F9212061FC08E9D008AD504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F9212081FC08E9D008AD504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB795A71FC0E5A800D267C3 /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
+		1FE2F0BE1FC09F4A004D4C2C /* StashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashViewController.swift; sourceTree = "<group>"; };
+		C9C845B5B6763546DC9A9AC3 /* Pods-GGSTASH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGSTASH.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGSTASH/Pods-GGSTASH.release.xcconfig"; sourceTree = "<group>"; };
+		CA82D1F7D6359AEDD9C521C9 /* Pods-GGSTASH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGSTASH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGSTASH/Pods-GGSTASH.debug.xcconfig"; sourceTree = "<group>"; };
+		E01A5E42F465FE7630E14D2C /* Pods_GGSTASH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGSTASH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF24C76DDF9CE64F49E514D /* Pods_GGSTASH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123E51C45AC17355906DA037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA82D1F7D6359AEDD9C521C9 /* Pods-GGSTASH.debug.xcconfig */,
+				C9C845B5B6763546DC9A9AC3 /* Pods-GGSTASH.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1F9211F01FC08E9C008AD504 = {
 			isa = PBXGroup;
 			children = (
+				1F48A5C31FC0A29B007C98FB /* GoogleService-Info.plist */,
 				1F9211FB1FC08E9C008AD504 /* GGSTASH */,
 				1F9211FA1FC08E9C008AD504 /* Products */,
+				123E51C45AC17355906DA037 /* Pods */,
+				CFAAE0C6AE80D22812F0B98D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,25 @@
 		1F9211FB1FC08E9C008AD504 /* GGSTASH */ = {
 			isa = PBXGroup;
 			children = (
+				1F48A5C51FC0ACAC007C98FB /* Supercell-magic-webfont.ttf */,
 				1F9211FC1FC08E9C008AD504 /* AppDelegate.swift */,
 				1F9211FE1FC08E9D008AD504 /* ViewController.swift */,
 				1F9212001FC08E9D008AD504 /* Main.storyboard */,
 				1F9212031FC08E9D008AD504 /* Assets.xcassets */,
 				1F9212051FC08E9D008AD504 /* LaunchScreen.storyboard */,
 				1F9212081FC08E9D008AD504 /* Info.plist */,
+				1FE2F0BE1FC09F4A004D4C2C /* StashViewController.swift */,
+				1FB795A71FC0E5A800D267C3 /* RewardViewController.swift */,
 			);
 			path = GGSTASH;
+			sourceTree = "<group>";
+		};
+		CFAAE0C6AE80D22812F0B98D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E01A5E42F465FE7630E14D2C /* Pods_GGSTASH.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F92120B1FC08E9D008AD504 /* Build configuration list for PBXNativeTarget "GGSTASH" */;
 			buildPhases = (
+				3CBDAC5066976F06BDE92C56 /* [CP] Check Pods Manifest.lock */,
 				1F9211F51FC08E9C008AD504 /* Sources */,
 				1F9211F61FC08E9C008AD504 /* Frameworks */,
 				1F9211F71FC08E9C008AD504 /* Resources */,
+				1DD55CCC3E128A451EDC02C6 /* [CP] Embed Pods Frameworks */,
+				DFE49250D25C9324BC3FD0B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,7 +162,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F48A5C61FC0ACAC007C98FB /* Supercell-magic-webfont.ttf in Resources */,
 				1F9212071FC08E9D008AD504 /* LaunchScreen.storyboard in Resources */,
+				1F48A5C41FC0A29B007C98FB /* GoogleService-Info.plist in Resources */,
 				1F9212041FC08E9D008AD504 /* Assets.xcassets in Resources */,
 				1F9212021FC08E9D008AD504 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +172,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DD55CCC3E128A451EDC02C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GGSTASH/Pods-GGSTASH-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/EFCountingLabel/EFCountingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/KVNProgress/KVNProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFCountingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVNProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGSTASH/Pods-GGSTASH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CBDAC5066976F06BDE92C56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GGSTASH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE49250D25C9324BC3FD0B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GGSTASH/Pods-GGSTASH-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F9211F51FC08E9C008AD504 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1F9211FF1FC08E9D008AD504 /* ViewController.swift in Sources */,
+				1FB795A81FC0E5A900D267C3 /* RewardViewController.swift in Sources */,
 				1F9211FD1FC08E9C008AD504 /* AppDelegate.swift in Sources */,
+				1FE2F0BF1FC09F4A004D4C2C /* StashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +395,7 @@
 		};
 		1F92120C1FC08E9D008AD504 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA82D1F7D6359AEDD9C521C9 /* Pods-GGSTASH.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +411,7 @@
 		};
 		1F92120D1FC08E9D008AD504 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C845B5B6763546DC9A9AC3 /* Pods-GGSTASH.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
